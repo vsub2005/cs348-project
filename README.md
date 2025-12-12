@@ -8,6 +8,7 @@ Backend: Flask + SQLAlchemy (SQLite). Frontend: React (Vite).
 - Node 18+, React, Vite
 
 ## Project Structure
+```text
 cs348-project/
 ├─ server/
 │ ├─ app.py
@@ -19,6 +20,7 @@ cs348-project/
 ├─ src/App.jsx
 ├─ package.json
 └─ vite.config.js
+```
 
 
 ## Quick Start
@@ -39,11 +41,13 @@ npm run dev
 ```
 
 ## API Endpoints
-GET /api/sports
-GET /api/teams?sport_id=...
-GET /api/venues
-GET /api/games?sport_id=&team_id=&from=&to=
-POST /api/games
-PUT /api/games/<id>
-DELETE /api/games/<id>
-GET /api/report/games?sport_id=&team_id=&from=&to=
+```text
+- GET /api/sports
+- GET /api/teams?sport_id=...
+- GET /api/venues
+- GET /api/games?sport_id=&team_id=&from=&to=
+- POST /api/games
+- PUT /api/games/<id>
+- DELETE /api/games/<id>
+- GET /api/report/games?sport_id=&team_id=&from=&to=
+```
